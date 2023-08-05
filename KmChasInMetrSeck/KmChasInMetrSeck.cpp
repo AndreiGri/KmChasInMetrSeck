@@ -4,7 +4,7 @@
 using namespace std;
 
 double KmChasInMetrSeck(int sp) {
-    double speedMetrInSeck = sp * 1000 / 60 / 60;
+    double speedMetrInSeck = (double)sp * 1000 / 60 / 60;
     return speedMetrInSeck;
 }
 
